@@ -1,0 +1,32 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Private Pharmacy Clinic</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to The Private Pharmacy Clinic</h1>
+        <nav>
+            <a href="index.php">Home</a>
+            <a href="shop.php">Shop</a>
+            <a href="consultation.php">Online Consultation</a>
+            <a href="contact.php">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Your Trusted Online Pharmacy</h2>
+        <p>Get expert medical consultations, prescriptions, and healthcare products.</p>
+    </main>
+
+    <footer>
+        <p>© 2024 The Private Pharmacy Clinic. All rights reserved.</p>
+    </footer>
+</body>
+</html>
