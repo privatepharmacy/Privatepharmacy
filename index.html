@@ -1,29 +1,49 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Private Pharmacy Clinic</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/privatepharmacy/assets/css/style.css">
 </head>
 <body>
     <header>
         <h1>Welcome to The Private Pharmacy Clinic</h1>
         <nav>
-            <a href="index.php">Home</a>
-            <a href="shop.php">Shop</a>
-            <a href="consultation.php">Online Consultation</a>
-            <a href="contact.php">Contact Us</a>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="consultation.html">Online Consultation</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
-    <main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="/privatepharmacy/assets/images/banner.jpg" alt="Pharmacy Banner">
         <h2>Your Trusted Online Pharmacy</h2>
-        <p>Get expert medical consultations, prescriptions, and healthcare products.</p>
-    </main>
+        <p>Expert medical consultations, prescriptions, and healthcare products.</p>
+        <a href="consultation.html" class="btn">Start Consultation</a>
+        <a href="shop.html" class="btn-secondary">Browse Treatments</a>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service">
+            <img src="/privatepharmacy/assets/images/icon-medicine.png" alt="Medicine Icon">
+            <h3>Prescription Treatments</h3>
+            <p>Safe and approved prescription medications.</p>
+        </div>
+        <div class="service">
+            <img src="/privatepharmacy/assets/images/icon-doctor.png" alt="Doctor Icon">
+            <h3>Online Consultations</h3>
+            <p>Speak to a doctor from the comfort of your home.</p>
+        </div>
+        <div class="service">
+            <img src="/privatepharmacy/assets/images/icon-prp.png" alt="PRP Treatment">
+            <h3>PRP Hair & Skin Treatments</h3>
+            <p>Advanced PRP treatments for hair and skin rejuvenation.</p>
+        </div>
+    </section>
 
     <footer>
         <p>© 2024 The Private Pharmacy Clinic. All rights reserved.</p>
